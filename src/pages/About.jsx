@@ -23,13 +23,13 @@ const About = () => {
             exit={{ opacity: 1, y: '-80%' }}
             transition={{ transition1 }}
            className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'>
-            <h1 className='h1'>About Me</h1>
+            <h1 className='h1'>O mně</h1>
             <p className='mb-12 max-w-sm font-medium font-secondary'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium reiciendis debitis eos quam pariatur quisquam voluptatibus mollitia rem ipsum,
               <br />
               <br />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur.
             </p>
-            <Link className='btn' to={'/portfolio'}>View my work</Link>
+            <Link className='btn' to={'/portfolio'}>Moje práce</Link>
           </motion.div>
         </div>
       </div>

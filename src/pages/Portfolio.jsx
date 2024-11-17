@@ -29,7 +29,7 @@ const Portfolio = () => {
               <br />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, consequuntur.
             </p>
-            <Link className='btn mb-[30px] mx-auto lg:mx-0' to={'/contact'}>Hire me</Link>
+            <Link className='btn mb-[30px] mx-auto lg:mx-0' to={'/contact'}>Kontakt</Link>
           </motion.div>
           <div className='grid grid-cols-2 lg:gap-2'>
             <div className=' max-w-[240px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>

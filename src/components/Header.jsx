@@ -1,7 +1,7 @@
 import React from 'react'
 import Socials from './Socials'
 import MobileNav from './MobileNav'
-import logo from '../assets/header/logo.svg'
+import logo from '../assets/header/logo1.png'
 import {Link} from 'react-router-dom'
 
 const Header = () => {
@@ -10,10 +10,10 @@ const Header = () => {
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
         <Link to='/' className='max-w-[150px]'><img src={logo} alt='' /></Link>
         <nav className='hidden xl:flex gap-x-12 font-semibold pt-2'>
-          <Link to={'/'} className='text-[#696c6d] hover:text-primary transition-all'>Home</Link>
-          <Link to={'/about'} className='text-[#696c6d] hover:text-primary transition-all'>About</Link>
+          <Link to={'/'} className='text-[#696c6d] hover:text-primary transition-all'>Domů</Link>
+          <Link to={'/about'} className='text-[#696c6d] hover:text-primary transition-all'>O mně</Link>
           <Link to={'/portfolio'} className='text-[#696c6d] hover:text-primary transition-all'>Portfolio</Link>
-          <Link to={'/contact'} className='text-[#696c6d] hover:text-primary transition-all'>Contact</Link>
+          <Link to={'/contact'} className='text-[#696c6d] hover:text-primary transition-all'>Kontakt</Link>
         </nav>
       </div>
       <Socials />
